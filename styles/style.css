@@ -134,13 +134,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
 .image-container {
   margin-left: 50px;
   border-radius: 100%;
@@ -203,7 +196,7 @@ a {
 .btn-container {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .introduction {
@@ -234,13 +227,36 @@ span {
   border: 1px solid black;
 }
 
+
+
+
+
+
+
+
+
 /* about me section  */
 .ampage {
-  border: 1px solid magenta;
+
   height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
+}
+
+
+.page-title {
+  border: 2px solid gray;
+  border-radius: 100px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin: 0;
+  padding: 5px 20px;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .grid-container {
@@ -248,40 +264,145 @@ span {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 100px);
-  gap: 10px;
+  grid-template-rows: repeat(2, 270px);
+  gap: 12px;
 }
 
 .box {
-  border: 1px solid magenta;
-  padding: 10px 5px;
+  border: 1px solid rgb(44, 43, 43);
+  border-radius: 20px;
+  background-color: var(--card);
+  backdrop-filter: blur(50px);
+  padding: 10px 60px;
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
 
+.am-image-container {
+
+  border-radius: 100%;
+  box-shadow: 0 0px 10px 0 var(--primary), 0 0px 10px 0 var(--secondary);
+  width: 155px;
+  height: 155px;
+
+  img {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 155px;
+    height: 155px;
+
+  }
+}
+
+.amimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .amtext {
   grid-column: span 3;
+
 }
 
 .amsocialmedia {
   grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
+
+.socialm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2 0px;
+}
+
+.ameducation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.dep {
+  font-weight: bold;
+}
+
+
+.amquote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* skill section */
 .skill-page {
   padding: 50px 0;
+  margin-bottom: 50px;
 }
 
+.page-title {
+  border: 2px solid gray;
+  border-radius: 100px;
+  padding: 0;
+  margin-bottom: 30px;
+  width: fit-content;
+
+}
+
+.title {
+  margin: 0;
+  padding: 5px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+
 .skill-container {
-  border: 1px solid magenta;
   height: fit-content;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
 }
+
+.skill-logo-container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
