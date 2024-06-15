@@ -1,3 +1,15 @@
+:root {
+  --bg: #030A0A;
+  --primary: #04AD7B;
+  --secondary: #37D9D9;
+  --card: rgb(4, 15, 15, 70%);
+  --border: linear-gradient(127deg, rgb(105, 105, 105, 33%) 0%, rgb(54, 54, 54, 100%) 100%);
+}
+
+* {
+  font-family: "poppins", montserrat, sans-serif;
+}
+
 html,
 body {
   margin: 0;
@@ -11,7 +23,7 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -19,6 +31,10 @@ body {
   display: flex;
   border: 1px solid magenta;
   padding: 2px auto;
+}
+
+ul {
+  list-style-type: none;
 }
 
 li {
@@ -64,9 +80,13 @@ li {
   gap: 10px;
 }
 
-.aboutme {
+.box {
   border: 1px solid magenta;
   padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .amtext {
@@ -77,10 +97,53 @@ li {
   grid-column: span 2;
 }
 
+/* skill section */
+.skill-page {
+  padding: 50px 0;
+}
+
 .skill-container {
   border: 1px solid magenta;
-  height: 80vh;
+  height: fit-content;
   display: flex;
-  flex-direction: column;
+  gap: 10px;
   align-items: center;
+}
+
+
+
+/* project section */
+
+.project-page {
+  border: 1px solid magenta;
+  height: 80dvh;
+}
+
+
+.projects-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  gap: 20px;
+}
+
+.cards {
+  border: 1px solid magenta;
+  padding: 10px;
+}
+
+.two {
+  grid-column: span 2;
+}
+
+.three {
+  grid-column: span 2;
+}
+
+
+/* project section */
+
+.footer-container {
+  height: 30dvh;
+  border: 1px solid magenta;
 }
