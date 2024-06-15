@@ -6,100 +6,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/css/boxicons.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar">
-            <div class="logo">logo</div>
-            <ul class="navlinks">
-                <li>home</li>
-                <li>about</li>
-                <li>skills</li>
-                <li>project</li>
-            </ul>
-            <div class="github">git</div>
-        </nav>
-        <header class="heropage">
-            <div class="hero">
-                <div class="heading">
-                    <h1>Abenezer Tesfaye</h1>
-                    <h1>a software engineer</h1>
-                </div>
-                <div>
-                    <div class="image">
+    <div class="triangle"></div>
 
+
+
+    <main class="main">
+        <div class="draft dev">WbDeveloper</div>
+        <div class="draft des">WebDesigner</div>
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <div class="logo-container">
+                    <h3 class="logo">Abenezer<br>Tesfaye</h3>
+                </div>
+                <ul class="navlinks">
+                    <li><a>home</a></li>
+                    <li><a>about</a></li>
+                    <li><a>skills</a></li>
+                    <li><a>project</a></li>
+                </ul>
+                <div class="github">
+                    <i class="skill-icon bx bxl-github bx-md"></i>
+
+                </div>
+            </nav>
+            <header class="heropage">
+                <div class="hero">
+                    <div>
+                        <ul class="logoskills">
+                            <li><i class="skill-icon bx bxl-javascript bx-sm"></i></li>
+                            <li><i class="skill-icon bx bxl-react bx-sm"></i></li>
+                            <li><i class="skill-icon bx bxl-typescript bx-sm"></i></li>
+                            <li> <i class="skill-icon bx bxl-flutter bx-sm"></i></li>
+                            <li> <i class="skill-icon bx bxl-tailwind-css bx-md"></i></li>
+                        </ul>
+                    </div>
+                    <div class="intro-container">
+                        <div class="intro">
+                            <div class="introduction">
+                                <span>Hi there! I am</span>
+                                <p class="name">Abenezer <br> Tesfaye</p>
+                            </div>
+                            <div>
+                                <div class="image-container">
+                                    <img src="assets/myimg.png" alt="abenezers photo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-container">
+                            <button class="btn">Download Cv <span class="down"><i class='bx bx-down-arrow-alt'></i></span></button>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="logoskills">
+                            <li><i class="skill-icon bx bxl-javascript bx-sm"></i></li>
+                            <li><i class="skill-icon bx bxl-react bx-sm"></i></li>
+                            <li><i class="skill-icon bx bxl-typescript bx-sm"></i></li>
+                            <li> <i class="skill-icon bx bxl-flutter bx-sm"></i></li>
+                            <li> <i class="skill-icon bx bxl-tailwind-css bx-md"></i></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
 
-        <!-- about me section -->
-        <section class="ampage">
-            <div class="page-title">
-                <p>About me </p>
-            </div>
-
-            <div class="grid-container">
-                <div class="box amtext">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit adipisci libero corrupti eaque, fugiat, cum nihil reiciendis fuga quia in repudiandae voluptatibus iusto provident obcaecati fugit praesentium architecto commodi maiores?</p>
-                </div>
-                <div class="box amimage">
-                    <div class="image"></div>
-                </div>
-                <div class="box ameducation"></div>
-                <div class="box amquote"></div>
-                <div class="box amsocialmedia"></div>
-            </div>
-
-        </section>
-
-        <!-- skills -->
-        <section>
-            <div class="skill-page">
+            <!-- about me section -->
+            <section class="ampage">
                 <div class="page-title">
-                    <p>Skills </p>
+                    <p>About me </p>
                 </div>
-                <div class="skill-container">
-                    <div class="box">language</div>
-                    <div class="box">language</div>
-                    <div class="box">language</div>
-                    <div class="box">language</div>
-                    <div class="box">language</div>
-                    <div class="box">language</div>
-                    <div class="box">language</div>
-                    <div class="box">language</div>
-                    <div class="box">language</div>
+
+                <div class="grid-container">
+                    <div class="box amtext">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit adipisci libero corrupti eaque, fugiat, cum nihil reiciendis fuga quia in repudiandae voluptatibus iusto provident obcaecati fugit praesentium architecto commodi maiores?</p>
+                    </div>
+                    <div class="box amimage">
+                        <div class="image"></div>
+                    </div>
+                    <div class="box ameducation"></div>
+                    <div class="box amquote"></div>
+                    <div class="box amsocialmedia"></div>
                 </div>
-            </div>
-        </section>
 
-        <!-- projects -->
-        <section class="project-page">
-            <div class="page-title">
-                <p>projects</p>
-            </div>
-            <div class="projects-grid-container">
-                <div class="cards one"></div>
-                <div class="cards two"></div>
-                <div class="cards three"></div>
-                <div class="cards four"></div>
-                <div class="cards five"></div>
-                <div class="cards six"></div>
-                <div class="cards seven"></div>
+            </section>
 
-            </div>
+            <!-- skills -->
+            <section>
+                <div class="skill-page">
+                    <div class="page-title">
+                        <p>Skills </p>
+                    </div>
+                    <div class="skill-container">
+                        <div class="box">language</div>
+                        <div class="box">language</div>
+                        <div class="box">language</div>
+                        <div class="box">language</div>
+                        <div class="box">language</div>
+                        <div class="box">language</div>
+                        <div class="box">language</div>
+                        <div class="box">language</div>
+                        <div class="box">language</div>
+                    </div>
+                </div>
+            </section>
 
-        </section>
+            <!-- projects -->
+            <section class="project-page">
+                <div class="page-title">
+                    <p>projects</p>
+                </div>
+                <div class="projects-grid-container">
+                    <div class="cards one"></div>
+                    <div class="cards two"></div>
+                    <div class="cards three"></div>
+                    <div class="cards four"></div>
+                    <div class="cards five"></div>
+                    <div class="cards six"></div>
+                    <div class="cards seven"></div>
 
-        <!-- footer section -->
-        <footer>
-            <div class="footer-container">
-                <div class="links"></div>
-                <div class="copyright"></div>
-            </div>
-        </footer>
-    </div>
+                </div>
+
+            </section>
+
+            <!-- footer section -->
+            <footer>
+                <div class="footer-container">
+                    <div class="links"></div>
+                    <div class="copyright"></div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+
 </body>
 
 </html>
