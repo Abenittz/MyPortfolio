@@ -673,5 +673,15 @@ h1 {
 
 .footer-container {
   height: 30dvh;
-  border: 1px solid magenta;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.contacts {
+  display: flex;
+  gap: 30px;
 }
