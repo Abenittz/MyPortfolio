@@ -25,6 +25,16 @@ body {
 
 }
 
+a {
+  text-decoration: none;
+  color: none;
+
+}
+
+a:hover {
+  color: none;
+}
+
 .main {
   position: relative;
   background-color: #040F0F10;
@@ -292,6 +302,12 @@ a {
   border: none;
   box-shadow: 0 0px 10px 0 var(--primary), 0 0px 10px 0 var(--secondary);
 
+}
+
+.btn:hover {
+  background-color: #1f7c62;
+  box-shadow: 0 0px 15px 0 var(--primary), 0 0px 15px 0 var(--secondary);
+  transition: 0.5s;
 
 }
 
@@ -684,4 +700,9 @@ h1 {
 .contacts {
   display: flex;
   gap: 30px;
+}
+
+.copyright {
+  margin-top: 20px;
+  color: #777979;
 }
